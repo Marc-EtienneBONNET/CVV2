@@ -1,0 +1,21 @@
+
+.menu{
+    background: var(--gray_1);
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    transition: all 0.3s;
+    &:hover{
+        background : var(--gray_2);
+    }
+}
+
+.menueTitre{
+    color:#fff;
+    margin: 0px;
+    padding: 0px;
+    padding-top:75vh;
+    width:1vw;
+    padding-left: 0.5vw;
+
+}

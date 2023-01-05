@@ -1,0 +1,122 @@
+.presentation{
+    border-radius: 15vh;
+    height: 90vh;
+    width: 80%;
+    margin-left:10%;
+    margin-top:5vh;
+    background: var(--gray_1);
+    box-shadow: var(--box-shadow-nav);
+    color: var(--gray_2);
+    transition: all 0.3s;
+    &:hover{
+        height: 105vh;
+    }
+    &:hover .presentionInfoGlobaleText {
+        height: 45vh;
+    }
+
+}
+
+.presentationHaut{
+    
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+
+.presentationImg{
+    box-shadow: var(--box-shadow-nav);
+    background: var(--gray_2);
+    width: 100%;
+    //margin-top: 35vh;
+    border-radius: 15vh;
+    padding: 3vh;
+}
+
+.presentationInfoPerso{
+    margin-left: 7vw;
+    margin-top: 6vw;
+    height: 30vh;
+    color: var(--gray_2);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.logos{
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.logo {
+    font-size: 7vh;
+    transition: all 0.3s;
+    &:hover{
+        color:white;
+    }
+    
+}
+
+.presentationInfoPersoInfo{
+    margin-left:1vw;
+    margin-top: -2vh;
+}
+
+.presentionInfoGlobale{
+    padding:2vh;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.presentionInfoGlobaleText{
+    transition: all 0.3s;
+    height: 32vh;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.logoCodingGame{
+    width:15vw;
+    transition: all 0.3s;
+    &:hover{
+        box-shadow: var(--box-shadow-nav);
+    }
+}
+
+.divPresentationLogo{
+    position: absolute;
+    background: white;
+    padding-left:2vw;
+    padding-right:2vw;
+    padding-top:4vh;
+    padding-bottom:4vh;
+    width: 21vw;
+    height: 37.5vh;
+    border-radius: 15vh;
+    opacity: 0.4;
+    transition: all 0.4s;
+    &:hover{
+        opacity: 0;
+    }
+}
+
+
+.DivCommentairePresentation{
+    position:absolute;
+    width: 8vw;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    text-align: center;
+    // background: red;
+}
+
+.DivCommentairePresentation{
+    font-size: 2.5vh;
+    color:white;
+}
+
+.DivCommentaireFlechePresentation{
+    font-size: 4vh;
+    margin-top : 14vh;
+    color:white;
+    margin-left:2.5vw;
+}

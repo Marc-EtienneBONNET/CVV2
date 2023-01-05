@@ -1,0 +1,71 @@
+.CategorysCompetances{
+    // padding: 2vh;
+}
+.CategorysCompetancesTitre{
+
+    background: var(--gray_1);
+    color : var(--gray_2);
+    padding: 1vh;
+    width : 49vh;
+    border-radius: 3vh;
+    font-size: 2vh;
+     
+}
+
+.CategoryCompetances{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;   
+}
+
+
+.Competance{
+    text-align: center;
+
+}
+.CompetanceImg{
+    border-radius: 50%;
+    margin-bottom: 1vh;
+    width : 5vw;
+    height : 7vh;
+    &:hover{
+        .CompetanceInfoNom{
+            font-size: 30px;
+        }
+        .CompetanceInfoText{
+            font-size: 30px;
+        }
+    }
+}
+
+.Competances{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    margin-left:10%;
+}
+
+.divCommentaireCompetance{
+    position: absolute;
+    // background: red;
+    width: 30vh;
+    margin-left: 65vw;
+    margin-top :-30vh;
+    text-align: center;
+}
+
+
+.CommentaireCompetance{
+    color: black;
+    font-size: 3vh
+}
+
+.divTitreCompetance{
+    text-align: center;
+    margin-top:4vh;
+    margin-bottom: -1vh;
+}
+
+
+.TitreCompetance{
+    color: #fff;
+    // font-size: 3vh
+}

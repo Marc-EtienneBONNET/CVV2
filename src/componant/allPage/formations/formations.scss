@@ -1,0 +1,65 @@
+.Formation{
+    //margin-left: 27vw;
+    margin-top: 5vh;
+}
+
+.LesFormation{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.FormationsImg{
+    margin-left: 30%;
+    border-radius: 50%;
+    height:30vh;
+    box-shadow: var(--box-shadow-nav);
+}
+
+.FormationsInfo{
+    margin: 1vh;
+    margin-left: 10vw;
+    background: var(--gray_1);
+    color:var(--gray_2);
+    width: 35vh;
+    height: 6vh;
+    border-radius: 4vh;
+    padding: 3vh;
+    box-shadow: var(--box-shadow-nav);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: all 0.3s;
+    &:hover{
+        height: 30vh;
+        width: 40vw;
+        margin-left:1vw;
+        word-wrap: break-word;
+    }
+
+}
+
+.FormationsInfoNom{
+    margin : 0px;
+    padding: 0px;
+}
+
+.FormationsInfoNiveau{
+    margin : 0px;
+    padding: 0px;
+}
+.FormationsInfoDeb{
+    margin : 0px;
+    padding: 0px;
+}
+
+.FormationsInfoFin{
+    margin : 0px;
+    padding: 0px;
+}
+
+.FormationsInfoText{
+    margin : 0px;
+    padding: 0px;
+    //width:25vh;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

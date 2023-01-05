@@ -1,0 +1,71 @@
+.portfolio{
+    margin-top:7vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+}
+
+.divPortfolio{
+}
+
+.divPortfolioImg{
+    width: 13vw;
+    height: 20vh;
+    border-radius: 50%;
+    box-shadow: var(--box-shadow-nav);
+    margin-left:5vw;
+    margin-top:8vh;
+}
+
+.divPortfolioLogo{
+    position: absolute;
+    width: 10vw;
+    height: 16vh;
+    margin-left : -13vw;
+    margin-top: 8vh;
+    // background-color: white;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 50%;
+    opacity: 0.7;
+    transition: all 0.4s;
+    &:hover{
+        opacity: 0;
+    }
+}
+
+.divPortfolioAudio{
+    width:10vw;
+    height:10vh;
+}
+
+.DivTitrePortfolio{
+    margin-top:5vh;
+    text-align: center;
+    margin-top:10vh;
+}
+
+.TitrePortfolio{
+    color:white;
+}
+
+.DivComentairePortfolio{
+    width: 30vw;
+    margin-left :56vw;
+    margin-top :5vh;
+}
+
+.CommentairePortfolio{
+    color : white;
+    font-size: 3vh;
+    margin-left: 2vw;
+}
+
+.CommentaireFlechePortfolio{
+    color : white;
+    font-size: 13vh;
+    margin-bottom: 5vh;
+}
+
