@@ -14,7 +14,7 @@ function ComposantFormations({wichPage ,setwichPage, profile}){
         { 
             let blob =await takeImgBlob(url + 'theProfile/sendImage' + tabFormations[i].photo);
             let srcImg = URL.createObjectURL(blob);
-            tabFormations[i].photo = srcImg;
+            tabFormations[i].photo = tabFormations[i].photo;
         }
         setFormation(tabFormations);
     }
@@ -23,7 +23,7 @@ function ComposantFormations({wichPage ,setwichPage, profile}){
         let res = formations.map((element) => {
             return (
                 <div className="Formation" key={element.name}>
-                    <img onClick={(e) => {window.open(element.lien)}} className='FormationsImg' src={element.photo}></img>
+                    <img onClick={(e) => {window.open(element.lien)}} className='FormationsImg' src={'./img/'+element.photo}></img>
                     <div className='FormationsInfo'>
                         <h4 className="FormationsInfoNom">Nom               : {element.name}</h4>
                         <h4 className="FormationsInfoNiveau">Niveau d'étude : {element.niveau}</h4>

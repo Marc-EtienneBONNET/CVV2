@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import {takeOneProfile, takeImgBlob, takeImg} from './../../../utile/dataProfile'
 import { url } from './../../../utile/Variable'
+  // "homepage": "https://marc-etiennebonnet.github.io/CVV2/",
 
 
 
@@ -16,13 +17,13 @@ function ComposantAccueil({wichPage ,setwichPage, profile}){
         return (
             <div className='accueilComptenue'>
                 <div className="accueilComptenueImgs">
-                    <img className="accueilComptenueImg" src={img}></img>
+                    <img className="accueilComptenueImg" src={'./img/'+profile.photo}></img>
                     <img className="accueilComptenueLogo" src='./logo/42.jpg'></img>
                 </div>
                 <h1 className="accueilComptenueText">Bonjour !<br/> Bien venue sur mon CV</h1>
                 <button onClick={(e) => {telechargeCv()}} type='button' className='AccueilbtnCv'>téléchargez CV</button>
                 <div className="divCommentaireFlecheAccueil">
-                    <h6 className="CommentaireTextAccueil">Le logo ci-dessous indique une interaction vocale, pensez à vos écouteur :D test </h6>
+                    <h6 className="CommentaireTextAccueil">Le logo ci-dessous indique une interaction vocale, pensez à vos écouteur :D</h6>
                     <img className='LogoSong' src='./song.png' ></img>
                 </div>
             </div>

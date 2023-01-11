@@ -10,7 +10,7 @@ function ComposantPresentation({wichPage ,setwichPage, profile}){
     async function takePhoto(){
         let blob =await takeImgBlob(url + 'theProfile/sendImage' + profile.photo);
         let srcImg = URL.createObjectURL(blob);
-        setPhoto(srcImg);
+        setPhoto(profile.photo);
     }
 
     function ReturnComptenue(){
@@ -22,7 +22,7 @@ function ComposantPresentation({wichPage ,setwichPage, profile}){
                 </div>
             <div className='presentation'>
             <div className='presentationHaut'>
-                <img onMouseOver={() => {document.getElementById('audioPresentation').play()}} onMouseOut={() => {document.getElementById('audioPresentation').pause()}} className='presentationImg' src={photo}></img>
+                <img onMouseOver={() => {document.getElementById('audioPresentation').play()}} onMouseOut={() => {document.getElementById('audioPresentation').pause()}} className='presentationImg' src={'./img/'+photo}></img>
                 <img onMouseOver={() => {document.getElementById('audioPresentation').play()}} onMouseOut={() => {document.getElementById('audioPresentation').pause()}} className='divPresentationLogo' src='./song.png' ></img>
                 <audio id='audioPresentation' className="divPortfolioAudio" src={'./audio/Moi.mp4'} type="MP3"/>
                 <div className="presentationInfoPerso">

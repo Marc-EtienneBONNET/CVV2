@@ -30,7 +30,6 @@ export async function addNewConnection(id){
 
 export async function takeImgBlob(url){
     try{
-        console.log('url : ', url);
         let blob = await axios.get(url, {responseType:'blob'});
         return blob.data;
     }

@@ -22,7 +22,7 @@ function ComposantCompetances({wichPage ,setwichPage, profile}){
                     let tmp = finaleTabCompetances;
                     tmp[x].push({
                         ...tabTmpCompetances[i],
-                        photo:srcImg,
+                        photo: tabTmpCompetances[i].photo,
                     })
                     pointeur = true;
                     setFinaleTabCompetances(tmp);
@@ -35,7 +35,7 @@ function ComposantCompetances({wichPage ,setwichPage, profile}){
                 let tmp = finaleTabCompetances;
                 tmp.push([{
                     ...tabTmpCompetances[i],
-                    photo:srcImg,
+                    photo:tabTmpCompetances[i].photo,
                 }])
             }
         }
@@ -51,7 +51,7 @@ function ComposantCompetances({wichPage ,setwichPage, profile}){
                         {element.map((element) => {
                             return (
                                 <div className="Competance" key={element.name}>
-                                        <img className='CompetanceImg' src={element.photo}></img>
+                                        <img className='CompetanceImg' src={'./img/'+element.photo}></img>
                                 </div>
                                 );
                             })}

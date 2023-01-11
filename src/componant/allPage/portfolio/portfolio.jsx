@@ -12,7 +12,7 @@ function ComposantPortfolio({wichPage ,setwichPage, profile}){
         for (let i = 0; tabPortfolio[i]; i++){
             let blob =await takeImgBlob(url + 'theProfile/sendImage' + tabPortfolio[i].photo);
             let srcImg = URL.createObjectURL(blob);
-            tabPortfolio[i].photo = srcImg;
+            tabPortfolio[i].photo = tabPortfolio[i].photo;
             let blob2 = await takeImgBlob(url + 'theProfile/sendImage' + tabPortfolio[i].audio);
             if (blob2){
                 let srcImg2 = URL.createObjectURL(blob2);
@@ -30,7 +30,7 @@ function ComposantPortfolio({wichPage ,setwichPage, profile}){
             console.log(element.audio);
             return (
                 <div className="divPortfolio" key={element.name}>
-                    <img className='divPortfolioImg' src={element.photo} ></img>
+                    <img className='divPortfolioImg' src={'./img/'+element.photo} ></img>
                     <img onClick={() => {window.open(element.lien)}} onMouseOver={() => {document.getElementById(element.name).play()}} onMouseOut={() => {document.getElementById(element.name).pause()}} onClick={() => {window.open(element.lien)}} className='divPortfolioLogo' src='./song.png' ></img>
                     <audio id={element.name} className="divPortfolioAudio" src={'./audio/' + element.audio + '.mp4'} type="MP3"/>
                 </div>
