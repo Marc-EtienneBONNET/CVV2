@@ -38,10 +38,11 @@ export async function takeImgBlob(url){
 }
 
 export async function takeImg(img, setImg, url, profile){
+    console.log('test ici :D1');
     if (!img && profile && profile.photo)
     {
         let tmp = await takeImgBlob(url);
-        console.log('test ici :D');
+        console.log('test ici :D2');
         let srcImg = URL.createObjectURL(tmp);
         setImg(srcImg);
     }
