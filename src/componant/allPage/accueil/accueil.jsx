@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import {takeOneProfile, takeImgBlob, takeImg} from './../../../utile/dataProfile'
 import { url } from './../../../utile/Variable'
-  // "homepage": "https://marc-etiennebonnet.github.io/CVV2/",
 
 
 
