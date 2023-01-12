@@ -1,5 +1,4 @@
 # Getting Started with Create React App
-  <!-- "homepage": "https://marc-etiennebonnet.github.io/CVV2/", -->
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
