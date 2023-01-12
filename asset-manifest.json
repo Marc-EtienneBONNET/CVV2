@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/CVV2/static/css/main.996e57a3.css",
-    "main.js": "/CVV2/static/js/main.e6e02c8e.js",
+    "main.js": "/CVV2/static/js/main.85a6536e.js",
     "index.html": "/CVV2/index.html",
     "main.996e57a3.css.map": "/CVV2/static/css/main.996e57a3.css.map",
-    "main.e6e02c8e.js.map": "/CVV2/static/js/main.e6e02c8e.js.map"
+    "main.85a6536e.js.map": "/CVV2/static/js/main.85a6536e.js.map"
   },
   "entrypoints": [
     "static/css/main.996e57a3.css",
-    "static/js/main.e6e02c8e.js"
+    "static/js/main.85a6536e.js"
   ]
 }
