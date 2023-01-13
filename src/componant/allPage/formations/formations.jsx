@@ -40,7 +40,7 @@ function ComposantFormations({wichPage ,setwichPage, profile}){
     function ReturnComptenue(){
         return (<div className="Formations">
             <div className="DivGrandTitre">
-                    <h6 className="GrandTitre">Ici, vous trouverez<br/>mon parourt scollaire</h6>
+                    <h6 className="GrandTitre">Ici, vous trouverez<br/>mon parours scolaire</h6>
                 </div>
             {createDivFormatons()}
         </div>);

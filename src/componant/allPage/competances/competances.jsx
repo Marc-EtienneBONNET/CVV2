@@ -68,13 +68,13 @@ function ComposantCompetances({wichPage ,setwichPage, profile}){
         return (
             <div className='Competances1'>
                 <div className="divTitreCompetance">
-                    <h6 className="TitreCompetance">Mes competance technique</h6>
+                    <h6 className="TitreCompetance">Mes compétences techniques</h6>
                 </div>
                 <div className='Competances'>
                     {createDivCompetances()}
                 </div>
                 <div className="divCommentaireCompetance">
-                    <h6 className="CommentaireCompetance">Et bientot<br/>le developpement mobile<br/>s'ajoutera a la liste</h6>
+                    <h6 className="CommentaireCompetance">Et bientôt<br/>le développement mobile<br/>s'ajoutera à la liste</h6>
                 </div>
             </div>
         );
@@ -83,7 +83,7 @@ function ComposantCompetances({wichPage ,setwichPage, profile}){
         <div className={wichPage==='Competances'?"accueil":""}>
            {wichPage==='Competances'?ReturnComptenue():<></>}
             <div className='menu'>
-                <h4 onClick={() => {setwichPage('Competances')}}  className='menueTitre'>C<br/>O<br/>M<br/>P<br/>E<br/>T<br/>A<br/>N<br/>C<br/>E<br/>S</h4>
+                <h4 onClick={() => {setwichPage('Competances')}}  className='menueTitre'>C<br/>O<br/>M<br/>P<br/>E<br/>T<br/>E<br/>N<br/>C<br/>E<br/>S</h4>
             </div>
         </div>
     );

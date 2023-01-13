@@ -43,14 +43,14 @@ function ComposantPortfolio({wichPage ,setwichPage, profile}){
         return (
             <div >
                 <div className="DivTitrePortfolio">
-                    <h6 className="TitrePortfolio">Voicy quelques projet demonstatif de mes competances</h6>
+                    <h6 className="TitrePortfolio">Voici quelques projets demonstatifs de mes compétences</h6>
                 </div>
                 <div className='portfolio'>
                     {createDivPortfolio()}
                 </div>
                 <div className="DivComentairePortfolio">
                     <i className="fa-solid fa-arrow-up-long CommentaireFlechePortfolio"></i>
-                    <h6 className="CommentairePortfolio">Mettez votre sourrie sur une bulle pour entendre les explication vocale !</h6>
+                    <h6 className="CommentairePortfolio">Mettez votre sourrie sur une bulle pour entendre les explications vocales !</h6>
                 </div>
             </div>
         );

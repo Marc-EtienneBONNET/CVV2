@@ -17,7 +17,7 @@ function ComposantPresentation({wichPage ,setwichPage, profile}){
         return (
             <div>            
                 <div className="DivCommentairePresentation">
-                    <h6 className="DivCommentairePresentation">Mon objectif et mes attente en audio </h6>
+                    <h6 className="DivCommentairePresentation">Mon objectif et mes attentes en audio </h6>
                     <i className="fa-solid fa-arrow-right DivCommentaireFlechePresentation "></i>
                 </div>
             <div className='presentation'>
