@@ -40,8 +40,8 @@ function ComposantPresentation({wichPage ,setwichPage, profile}){
                         </div>
                         <img onClick={() => {window.open(profile.codingGame)}}src="./logo/codingame.jpg" className="logoCodingGame"></img>
                     </div>
-                    <h3>Disponibiliter     : {profile.disponibilite}</h3>
-                    <h3>Contrat rechercher : {profile.contrat}</h3>
+                    <h3>Disponibilités     : {profile.disponibilite}</h3>
+                    <h3>Contrat recherché : {profile.contrat}</h3>
                 </div>
             </div>
                 <div className="presentionInfoGlobale">
@@ -58,7 +58,7 @@ function ComposantPresentation({wichPage ,setwichPage, profile}){
         <div className={wichPage==='Presentation'?"accueil":"fermeture"}>
            {wichPage==='Presentation'?ReturnComptenue():<></>}
             <div className='menu'>
-                <h4 onClick={() => {setwichPage('Presentation')}}  className='menueTitre'>I<br/>N<br/>F<br/>O<br/>R<br/>M<br/>A<br/>T<br/>I<br/>O<br/>N</h4>
+                <h4 onClick={() => {setwichPage('Presentation')}}  className='menueTitre'>I<br/>N<br/>F<br/>O<br/>R<br/>M<br/>A<br/>T<br/>I<br/>O<br/>N<br/>S</h4>
             </div>
         </div>
     );

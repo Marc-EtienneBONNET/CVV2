@@ -19,7 +19,7 @@ function ComposantAccueil({wichPage ,setwichPage, profile}){
                     <img className="accueilComptenueImg" src={'./img/'+profile.photo}></img>
                     <img className="accueilComptenueLogo" src='./logo/42.jpg'></img>
                 </div>
-                <h1 className="accueilComptenueText">Bonjour !<br/> Bienvenu sur mon CV</h1>
+                <h1 className="accueilComptenueText">Bonjour !<br/> Bienvenue sur mon CV</h1>
                 <button onClick={(e) => {telechargeCv()}} type='button' className='AccueilbtnCv'>télécharger CV</button>
                 <div className="divCommentaireFlecheAccueil">
                     <h6 className="CommentaireTextAccueil">Le logo ci-dessous indique une interaction vocale, pensez à vos écouteurs :D</h6>

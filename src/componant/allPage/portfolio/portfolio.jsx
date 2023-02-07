@@ -50,7 +50,7 @@ function ComposantPortfolio({wichPage ,setwichPage, profile}){
                 </div>
                 <div className="DivComentairePortfolio">
                     <i className="fa-solid fa-arrow-up-long CommentaireFlechePortfolio"></i>
-                    <h6 className="CommentairePortfolio">Mettez votre sourrie sur une bulle pour entendre les explications vocales !</h6>
+                    <h6 className="CommentairePortfolio">Mettez votre souris sur une bulle pour entendre les explications vocales !</h6>
                 </div>
             </div>
         );
